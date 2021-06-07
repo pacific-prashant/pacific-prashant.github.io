@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -355,7 +355,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -387,6 +387,7 @@ section {
 }
 
 .section-title p {
+  color: rgb(0,0,0,0.6);
   margin-bottom: 0;
 }
 
@@ -1195,4 +1196,12 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+
+/*Extra css*/
+
+.extra-space-down {
+  margin-bottom: 100px;
 }
